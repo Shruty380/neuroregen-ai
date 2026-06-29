@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Environment variables - NEVER commit these
+.env
+.env.local
+.env.production
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+
+# Data files
+data/raw/*.fasta
+data/raw/*.fastq
+data/raw/*.csv
+*.h5
+
+# Database
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI/ML models
+*.pkl
+*.pt
+*.pth
