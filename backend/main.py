@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.database import engine, Base
-from app.routers import diseases, bio_tools, ai_models
+from app.routers import diseases, bio_tools, ai_models, exports
 
 # Create the FastAPI app
 app = FastAPI(
@@ -26,6 +26,7 @@ Base.metadata.create_all(bind=engine)
 app.include_router(diseases.router)
 app.include_router(bio_tools.router)
 app.include_router(ai_models.router)
+app.include_router(exports.router)
 @app.get("/")
 def root():
     return {
