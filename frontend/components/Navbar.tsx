@@ -7,11 +7,12 @@ export default function Navbar() {
           <span className="font-bold text-white text-lg">NeuroRegen AI</span>
         </div>
         <div className="hidden md:flex items-center gap-8 text-sm text-gray-400">
-          <a href="#diseases" className="hover:text-emerald-400 transition-colors">Diseases</a>
-          <a href="#tools" className="hover:text-emerald-400 transition-colors">Tools</a>
-          <a href="#roadmap" className="hover:text-emerald-400 transition-colors">Roadmap</a>
-          <a href="https://github.com/Shruty380/neuroregen-ai" target="_blank" rel="noreferrer" className="bg-emerald-500 text-black px-4 py-2 rounded-lg font-medium hover:bg-emerald-400 transition-colors">GitHub</a>
-        </div>
+  <a href="#diseases" className="hover:text-emerald-400 transition-colors">Diseases</a>
+  <a href="#tools" className="hover:text-emerald-400 transition-colors">Tools</a>
+  <a href="#roadmap" className="hover:text-emerald-400 transition-colors">Roadmap</a>
+  <a href="/dashboard" className="hover:text-emerald-400 transition-colors">Dashboard</a>
+  <a href="https://github.com/Shruty380/neuroregen-ai" target="_blank" rel="noreferrer" className="bg-emerald-500 text-black px-4 py-2 rounded-lg font-medium hover:bg-emerald-400 transition-colors">GitHub</a>
+</div>
       </div>
     </nav>
   );
