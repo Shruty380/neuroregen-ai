@@ -37,6 +37,7 @@ interface Prediction {
   top_features: Record<string, number>;
   explanation: string;
   model_accuracy: number;
+  disclaimer: string;
 }
 
 const colorMap: Record<string, string> = {
